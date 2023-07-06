@@ -1,3 +1,23 @@
 [
-
+ {
+		"name": "Settlers",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Founds a new city"]
+		"cost": 100,
+	}
+  {
+		"name": "Workers",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [All] improvements on tiles"]
+		"cost": 70,
+	}
+  {
+		"name": "Pikers",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 10
+		"cost": 40,
+	}
 ]
