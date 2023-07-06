@@ -1,3 +1,112 @@
 [
-
+ {
+		"columnNumber": 0,
+		"era": "Reconstruciton Era",
+		"techCost": 40,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 4,
+				"quote": "",
+				"uniques": ["Starting tech"]
+		 	}
+    ]
+ }
+      {
+		"columnNumber": 1,
+		"era": "Reconstruction Era",
+		"techCost": 40,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": ""
+			},
+			{
+				"name": "Domestication",
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Mining",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			},
+			{
+				"name": "Construction",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": ""
+			}
+]
+      }
+  {
+		"columnNumber": 2,
+		"era": "Reconstruction Era",
+		"techCost": 60,
+		"buildingCost": 60,
+		"wonderCost": 125,
+		"techs": [
+			{
+				"name": "Vessels",
+				"row": 1,
+				"prerequisites": ["Sailing"],
+				"quote": ""
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 3,
+				"prerequisites": ["Domestication"],
+				"quote": ""
+			},
+			{
+				"name": "Gunpowder",
+				"row": 5,
+				"prerequisites": ["Mining"],
+				"quote": ""
+			},
+			{
+				"name": "Simple Machines",
+				"row": 7,
+				"prerequisites": ["Construction"],
+				"quote": ""
+			}
+]
+      }
+  {
+		"columnNumber": 3,
+		"era": "Reconstruction Era",
+		"techCost": 75,
+		"buildingCost": 75,
+		"wonderCost": 140,
+		"techs": [
+	
+			{
+				"name": "Fishing",
+				"row": 2,
+				"prerequisites": ["Horseback Riding","Vessels"],
+				"quote": ""
+			},
+			{
+				"name": "Gun Breech",
+				"row": 4,
+				"prerequisites": ["Gunpowder"],
+				"quote": ""
+			},
+			{
+				"name": "Reconstruction",
+				"row": 6,
+				"prerequisites": ["Simple Machines"],
+				"quote": ""
+			}
+]
+      }
 ]
