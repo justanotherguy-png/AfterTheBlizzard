@@ -1,3 +1,46 @@
 [
-
+  {
+    "name": "Reconstruction Era",
+		"researchAgreementCost": 150,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 1,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Pikers",
+		"settlerPopulation": 1,
+	  "embarkDefense": 6,
+    "iconRGB": [255, 87, 35]
+  }
+{
+    "name": "Ressetlement Era",
+		"researchAgreementCost": 175,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 1,
+		"startingMilitaryUnitCount": 2,
+		"startingMilitaryUnit": "Pikers",
+		"settlerPopulation": 1,
+	  "embarkDefense": 10,
+    "iconRGB": [255, 87, 35]
+  }
+  {
+    "name": "Warring Era",
+		"researchAgreementCost": 250,
+		"startingSettlerCount": 2,
+		"startingWorkerCount": 1,
+		"startingMilitaryUnitCount": 2,
+		"startingMilitaryUnit": "Pikers",
+		"settlerPopulation": 2,
+	  "embarkDefense": 15,
+    "iconRGB": [255, 87, 35]
+  }
+  {
+    "name": "Refrost Era",
+		"researchAgreementCost": 400,
+		"startingSettlerCount": 2,
+		"startingWorkerCount": 2,
+		"startingMilitaryUnitCount": 3,
+		"startingMilitaryUnit": "Rifles",
+		"settlerPopulation": 2,
+	  "embarkDefense": 20,
+    "iconRGB": [255, 87, 35]
+  }
 ]
