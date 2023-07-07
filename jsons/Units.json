@@ -17,7 +17,17 @@
 		"name": "Pikers",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 10
+		"strength": 10,
 		"cost": 40,
+	}
+	{
+		"name": "Fusiliers",
+		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 8,
+		"range": 2,
+		"cost": 80,
+		"requiredTech": ["Gunpowder"]
 	}
 ]
