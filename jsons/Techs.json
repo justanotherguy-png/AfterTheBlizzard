@@ -109,4 +109,38 @@
 			}
 ]
       }
+	 {
+		"columnNumber": 4,
+		"era": "Resettlement Era",
+		"techCost": 80,
+		"buildingCost": 80,
+		"wonderCost": 145,
+		"techs": [
+	
+			{
+				"name": "Steam Power",
+				"row": 1,
+				"prerequisites": ["Breechloaders","Vessels"],
+				"quote": ""
+			},
+			{
+				"name": "Repeaters",
+				"row": 3,
+				"prerequisites": ["Breechloaders"],
+				"quote": ""
+			},
+			{
+				"name": "Electricity",
+				"row": 5,
+				"prerequisites": ["Reconstruction"],
+				"quote": ""
+			}
+			{
+				"name": "Civil Service",
+				"row": 7,
+				"prerequisites": ["Reconstruction"],
+				"quote": ""
+			}
+]
+      }
 ]
