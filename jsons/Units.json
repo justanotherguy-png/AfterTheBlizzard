@@ -30,4 +30,14 @@
 		"cost": 80,
 		"requiredTech": ["Gunpowder"]
 	}
+	{
+		"name": "Riflemen",
+		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 12,
+		"range": 2,
+		"cost": 80,
+		"requiredTech": ["Repeaters"]
+	}
 ]
