@@ -96,7 +96,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Gun Breech",
+				"name": "Breechloaders",
 				"row": 4,
 				"prerequisites": ["Gunpowder"],
 				"quote": ""
